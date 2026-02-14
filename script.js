@@ -23,7 +23,7 @@ yesBtn.addEventListener("click", () => {
   if (scale > 1.8) {
     document.querySelector(".container").innerHTML = `
       <h1>Quaooo!! 💘🥹</h1>
-           <img src="23.jpeg" alt="" />
+           <img src="23.jpg" alt="" />
     `;
   }
 });
@@ -54,5 +54,6 @@ function createHeart() {
 
 
 setInterval(createHeart, 350);
+
 
 
